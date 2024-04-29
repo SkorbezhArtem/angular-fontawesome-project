@@ -1,0 +1,18 @@
+button {
+  width: 250px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+fa-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45px, 60px);
+  font-size: 90px;
+}

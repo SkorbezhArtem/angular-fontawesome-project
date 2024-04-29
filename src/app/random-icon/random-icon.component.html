@@ -1,0 +1,6 @@
+<div fxLayout="column" fxLayoutAlign="center center" style="height: 100vh">
+  <button mat-raised-button color="primary" (click)="showRandomIcon()">
+    Press me
+  </button>
+  <fa-icon [icon]="randomIcon" *ngIf="randomIcon"></fa-icon>
+</div>
